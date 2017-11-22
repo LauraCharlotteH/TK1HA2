@@ -1,4 +1,5 @@
 import java.awt.FlowLayout;
+import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -21,8 +22,9 @@ public class Main implements Runnable{
         // By default, the window is not visible. Make it visible.
         f.setVisible(true);
     }
- 
+
     public static void main(String[] args) {
+
         Main se = new Main();
         // Schedules the application to be run at the correct time in the event queue.
         SwingUtilities.invokeLater(se);
