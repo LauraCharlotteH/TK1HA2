@@ -6,6 +6,7 @@ package pokemon.models;
  *
  */
 public class PokemonModel {
+	//TODO remove: die poke style sachen werden direkt in board view gemacht
 	public enum pokeStyle{
 		PIKACHU , EEVEE , CHARMANDER , SQUIRTLE , BULBASAUR
 	}

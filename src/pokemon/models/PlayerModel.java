@@ -7,6 +7,7 @@ package pokemon.models;
  *
  */
 public class PlayerModel {
+	//TODO Remove
 	
 	private String name;
 	private int score;

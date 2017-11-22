@@ -10,7 +10,6 @@ import javax.swing.*;
 public class PlayerView extends JPanel {
 	private JLabel scoreLabel = new JLabel(" Your Score is :  0");
 	private JLabel playerLabel = new JLabel(" You are :  ");
-	
 	PlayerView(String name){
 		
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));

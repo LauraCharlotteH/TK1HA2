@@ -11,6 +11,7 @@ import java.util.Random;
  *
  */
 public class BoardModel {
+	//TODO remove
 
 	private static int height;
 	private static int width; 
